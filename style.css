@@ -1,0 +1,123 @@
+body {
+  background-color: rgba(0, 0, 0, 0.993);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.navbar {
+  background-color: #000 !important;
+  border-bottom:1px solid #00fff7 ;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+  color: #ccc !important;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  box-shadow: 0 0 15px #00fff7;
+}
+
+.get-started-btn {
+  border: 2px solid #00fff7;
+  color: black !important;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 10px;
+  transition: 0.4s ease;
+  justify-content: left;
+}
+
+.get-started-btn:hover {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: #111;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 255, 247, 0.3);
+  border-radius: 10px;
+}
+
+.dropdown-item {
+  color: #ccc;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+}
+
+.dropdown-item:hover {
+  color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start;
+  text-align: left;
+  height: 100vh;
+  padding-left: 20px;
+}
+
+.text-wrapper {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  max-width: 40%;
+}
+
+h2.my, h3.my {
+  color: rgba(255, 255, 255, 0.575);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.4;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.d-flex {
+  display: inline-flex;
+  align-items: left;
+  margin-left: 0px;
+  justify-content: left;
+
+ 
+}
+
+.watch-video-btn {
+  border: 2px solid #0dcaf0;
+  transition: 0.3s;
+
+}
+
+.watch-video-btn:hover {
+  box-shadow: 0 0 10px #0dcaf0;
+  justify-content: left;
+}
+
+.gif-style {
+  max-height: 300px;
+  width: 300px;
+  display: inline-flex;
+}
+
